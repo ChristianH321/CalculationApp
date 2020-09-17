@@ -40,8 +40,8 @@ namespace PriceCalculation
             {
                 Console.WriteLine("No Driving!");
             }
-
-            double totalCost = cost1 + cost2 + cost3;
+            double initialfee = 130.00;
+            double totalCost = cost1 + cost2 + cost3 + initialfee;
             return totalCost;
 
 
