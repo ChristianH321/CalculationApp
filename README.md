@@ -1,0 +1,2 @@
+# CalculationApp
+Exercise for SDM
