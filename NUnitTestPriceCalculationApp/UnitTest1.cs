@@ -18,5 +18,12 @@ namespace NUnitTestPriceCalculationApp
             Assert.That(Program.TotalCost(4, 20), Is.GreaterThan(0));
             
         }
+
+        [Test]
+        public void TotalCost1()
+        {
+
+            Assert.That(Program.TotalCost(0, 0), Is.EqualTo(0));
+        }
     }
 }
